@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+$ctrlj_navy: #0D1A26;
+$ctrlj_pink: #D9BACB;
+
+
+
+body {
+  background-color: $ctrlj_navy;
+  color: $ctrlj_pink;
+  display: flex;
+  font-family: 'Space Mono', monospace;
+  font-display: swap;
+  font-size: 16px;
+  font-weight: 400;
+  min-height: 95vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+a, a:visited, a:hover, a:focus, a:active {
+  color: $ctrlj_pink;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 200px;
+}
+
